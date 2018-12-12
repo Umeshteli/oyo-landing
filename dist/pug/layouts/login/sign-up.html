@@ -1,0 +1,56 @@
+
+<div class="row align-self-center align-items-center">
+  <!-- left-wrapper-->
+  <div class="col-sm-12 col-md-6 text-white">
+    <div class="padding-right">
+      <h1 class="heading">Why<span class="bold-heading d-block">Create an account?</span></h1>
+      <ul class="checked-list pt-2 pt-lg-3">
+        <li class="checked-list__item">Get access to out cutting-edge bioinformatics products</li>
+        <li class="checked-list__item">Browse through a plethora of documentation that would aid your research</li>
+        <li class="checked-list__item">Manage your user profile</li>
+      </ul>
+    </div>
+  </div>
+  <!-- right-wrapper-->
+  <div class="col-sm-12 offset-sm-0 col-md-4 offset-md-1 white-panel">
+    <form class="registrationFormLogin ui form customFormValidation" id="registrationFormLogin">
+      <h1 class="form-title f-heading">Create An Account</h1>
+      <!-- email-->
+      <div class="field">
+        <label class="form-label">Email<span class="asterisk">*</span></label>
+        <input class="form-input fnt-sm" type="email" name="regd-email" placeholder="Enter your Email" required="required"/>
+      </div>
+      <!-- password  -->
+      <div class="field">
+        <label class="form-label">Password<span class="asterisk">*</span></label>
+        <div class="d-flex flex-row align-items-center">
+          <input class="form-input fnt-sm password-field" id="password-field" type="password" name="regd-password" placeholder="Enter your Password" required="required"/><span class="icon-password-view ml-icon toggle-password" toggle="#password-field"></span>
+        </div>
+      </div>
+      <!--Set-rules for creating the pasword-->
+      <div class="password-rules"><span class="fnt-xs">Password must have:</span>
+        <ul class="fnt-sm">
+          <li class="contain-number">At least one number [0-9]</li>
+          <li class="contain-uppercase">At least one uppercase character [A-Z]</li>
+          <li class="contain-lowercase">At least one lowercase character [a-z]</li>
+          <li class="contain-special">At least one special character () ! @ # $ % ^ & *</li>
+          <li class="contain-minimum">A minimum length of 8 characters</li>
+        </ul>
+      </div>
+      <div class="password-success d-none"><span class="fnt-xs">All rules fullfield</span></div>
+      <!--tems and conditions  -->
+      <div class="field mb-0">
+        <div class="ui checkbox mt-2">
+          <input type="checkbox" name="reg-terms"/>
+          <label class="fnt-sm text-gray-secondary">I have read and agree to the <a class="fnt-sm txt-sky" href="#">Terms & Conditions</a> and <a class="fnt-sm txt-sky" href="#">Privacy Policy</a></label>
+        </div>
+      </div>
+      <!-- create account      -->
+      <div class="field mb-2">
+        <button class="btn btn--blue btn-space submit-registerAccount" type="submit" disabled="disabled">CREATE ACCOUNT</button>
+      </div>
+      <!--already i have account  -->
+      <div class="fnt-sm pt-2 account-info">Already have an account? <a class="txt-sky fnt-semibold" href="#loginForm" data-link="change-form"><strong>Login</strong></a></div>
+    </form>
+  </div>
+</div>

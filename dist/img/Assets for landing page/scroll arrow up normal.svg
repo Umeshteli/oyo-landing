@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="37px" height="37px" viewBox="0 0 37 37" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>scroll arrow up normal</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="scroll-arrow-up-normal" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-10-Copy-2" transform="translate(18.500000, 18.500000) rotate(-270.000000) translate(-18.500000, -18.500000) ">
+            <circle id="Oval-2-Copy-4" stroke="#E8E8E8" stroke-width="1.42325387" fill="#FFFFFF" transform="translate(18.500000, 18.500000) scale(-1, 1) translate(-18.500000, -18.500000) " cx="18.5" cy="18.5" r="17.7883731"></circle>
+            <path d="M21.8118708,18.938726 L12.3333333,18.938726 L12.3333333,17.877897 L21.9184895,17.877897 L17.8948785,13.854286 L18.6449978,13.1041667 L23.8958333,18.3550022 L23.145714,19.1051215 L18.6449978,23.6058377 L17.8948785,22.8557183 L21.8118708,18.938726 Z" id="Combined-Shape-Copy-2" fill="#000000" opacity="0.1674665" transform="translate(18.114583, 18.355002) scale(-1, 1) translate(-18.114583, -18.355002) "></path>
+        </g>
+    </g>
+</svg>
